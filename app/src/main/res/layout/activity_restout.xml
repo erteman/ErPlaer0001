@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:visibility="visible"
+    tools:context=".RestoutActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints"
+    android:id="@+id/rest_ll"
+    tools:layout_editor_absoluteY="16dp"
+    >
+
+
+
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingBottom="1dp"
+        android:background="#F7F7F7"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/search_rest"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/text_rest"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

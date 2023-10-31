@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ErPlaer</string>
+    <string name="title_activity_down">DownActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="wait_download">等待下载</string>
+    <string name="pause">暂停</string>
+    <string name="already_paused">已暂停</string>
+    <string name="btn_download">下载</string>
+    <string name="go_on">继续</string>
+    <string name="prepareing">准备中</string>
+    <string name="retry">重试</string>
+    <string name="unknow_movie">未知影片</string>
+    <string name="need_permission_tips">请授予需要的权限</string>
+    <string name="please_input_download_address">请输入下载地址</string>
+    <string name="already_download">已经在下载列表了</string>
+    <string name="new_download">新建下载</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="nochoice">您没有选择需要下载的内容</string>
+    <string name="title_activity_loginactivity">Loginactivity</string>
+    <string name="isempty">你没有输入用户或者密码</string>
+</resources>
